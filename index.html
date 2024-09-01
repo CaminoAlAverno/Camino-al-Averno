@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Filosófico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #FFFFFF;
+            background-color: #333333;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #B22222; /* Rojo oscuro (Bordeaux) */
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #B22222; /* Rojo oscuro (Bordeaux) */
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .social-media a {
+            color: #000000;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333333;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .comments-section {
+            margin-top: 40px;
+        }
+        .comments-section form {
+            margin-bottom: 20px;
+        }
+        .comments-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #CCC;
+            border-radius: 5px;
+        }
+        .comments-section input[type="submit"] {
+            background-color: #B22222;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .comments-section input[type="submit"]:hover {
+            background-color: #8B0000; /* Un tono más oscuro de Bordeaux */
+        }
+        .comment {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #F0F0F0;
+            border-radius: 5px;
+        }
+        .comment h3 {
+            margin: 0;
+            color: #B22222;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Filosófico</h1>
+    </header>
+
+    <nav>
+        <a href="#ensayos">Ensayos</a>
+        <a href="#reflexiones">Reflexiones</a>
+        <a href="#citas">Citas</a>
+        <a href="#videos">Videos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#comentarios">Comentarios</a>
+    </nav>
+
+    <section id="ensayos">
+        <h2>Ensayos Filosóficos</h2>
+        <p>Aquí podrás encontrar mis ensayos sobre temas filosóficos.</p>
+        <!-- Puedes añadir contenido aquí -->
+    </section>
+
+    <section id="reflexiones">
+        <h2>Reflexiones</h2>
+        <p>Compartiré algunas reflexiones personales sobre diferentes aspectos de la vida.</p>
+        <!-- Puedes añadir contenido aquí -->
+    </section>
+
+    <section id="citas">
+        <h2>Citas de Libros</h2>
+        <p>Encuentra aquí algunas de mis citas favoritas de libros que he leído.</p>
+        <!-- Puedes añadir contenido aquí -->
+    </section>
+
+    <section id="videos">
+        <h2>Videos de mi Canal de YouTube</h2>
+        <p>Mira mis últimos videos de YouTube aquí.</p>
+        <!-- Puedes insertar videos de YouTube -->
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Fotos</h2>
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+            <!-- Puedes añadir más imágenes aquí -->
+        </div>
+    </section>
+
+    <section id="comentarios" class="comments-section">
+        <h2>Comentarios</h2>
+        <form>
+            <textarea placeholder="Escribe tu comentario aquí..." required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="comment">
+            <h3>Usuario 1</h3>
+            <p>Comentario de ejemplo. Aquí puedes responder.</p>
+        </div>
+        <div class="comment">
+            <h3>Usuario 2</h3>
+            <p>Otro comentario de ejemplo.</p>
+        </div>
+        <!-- Más comentarios pueden ser añadidos aquí -->
+    </section>
+
+    <div class="social-media">
+        <a href="https://www.youtube.com" target="_blank">YouTube</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">X</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Filosófico. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
